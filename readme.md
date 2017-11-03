@@ -1,7 +1,7 @@
 //TODO update the line below for your team and project.
 # MVC Team Challenge Repository
 
-### Team Members: Alice Holbrow, Brian Chase, Michael Cholnoski
+### Team Members: Alice Holbrow, Brian Chase, Michael Choinoski
 
 ### Repository Notes
 1. This repository is structured like your projects repository for class, with one main difference:
