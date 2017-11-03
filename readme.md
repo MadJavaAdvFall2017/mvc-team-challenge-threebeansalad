@@ -1,7 +1,6 @@
 //TODO update the line below for your team and project.
 # MVC Team Challenge Repository
 
-//TODO add your team member names below.
 ### Team Members: Alice Holbrow, Brian Chase, Michael Cholnoski
 
 ### Repository Notes
