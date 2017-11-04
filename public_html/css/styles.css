@@ -1,0 +1,64 @@
+/*  Project 2 Starting CSS */
+
+header, footer, nav, section, article, aside {
+    display: block;
+}
+
+header, footer {
+    padding: 1em;
+    clear: left;
+    text-align: center;
+}
+
+.container {
+    background-color: #f5d1d3;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url("../images/gifts.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+}
+
+h2,h3 {
+    text-align: center;
+    color: darkgreen;
+}
+
+body {
+    color: #000000;
+    background-color: #caeeda;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    height: 50px;
+    border: 4px solid #ff093a;
+}
+
+td {
+    padding: 15px;
+    border: 2px solid #ff093a;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+footer {
+    margin-top: 15px;
+    float: left;
+    clear: left;
+}

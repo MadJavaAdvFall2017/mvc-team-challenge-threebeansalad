@@ -26,7 +26,7 @@ public class MvcDemo extends HttpServlet {
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String inputName = request.getParameter("yourName");
+        String inputName = request.getParameter("inputName");
 
         BeanOne myBean = new BeanOne();
 
