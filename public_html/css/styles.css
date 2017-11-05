@@ -1,4 +1,4 @@
-/*  Project 2 Starting CSS */
+/*  MVC Team Demo CSS */
 
 header, footer, nav, section, article, aside {
     display: block;
@@ -22,7 +22,7 @@ header, footer {
     background-color: #FFFFFF;
 }
 
-h2,h3 {
+h2,h3, h4 {
     text-align: center;
     color: darkgreen;
 }
@@ -54,8 +54,6 @@ td {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-
-
 
 footer {
     margin-top: 15px;
