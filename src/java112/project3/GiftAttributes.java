@@ -38,7 +38,6 @@ public class GiftAttributes extends HttpServlet {
         giftList.put("3", new GiftBean (3, "Katie", "paints", 39.99, false));
         giftList.put("4", new GiftBean (4, "Martha", "slippers", 35.99, false));
 
-
         request.setAttribute("giftList", giftList  );
 
         String url = "/giftList.jsp";

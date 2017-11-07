@@ -41,7 +41,6 @@ public class ShoppingDays extends HttpServlet {
         long diff = xmas.getTime() - today.getTime();
         diff = diff / (1000L*60L*60L*24L);
 
-
         request.setAttribute("shoppingDays", diff  );
 
         String url = "/giftList.jsp";
