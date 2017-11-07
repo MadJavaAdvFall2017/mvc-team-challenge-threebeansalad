@@ -21,30 +21,13 @@
         <br />
 
 
-        giftDiagram	
+        <p><center><img src='/java112/images/giftList.jpg' alt='MATC'></center></p>	
 
         <br />
-
-
-        <%@ page import="java.util.*"%>
-
-        <%
-            Calendar c = new GregorianCalendar();
-            c.set(Calendar.YEAR, 2017);
-            c.set(Calendar.MONTH, 11); // 11 = december
-            c.set(Calendar.DAY_OF_MONTH, 25);
-
-            Date xmas = c.getTime();
-            Date today = new Date();
-            long diff = xmas.getTime() - today.getTime();
-            diff = diff / (1000L*60L*60L*24L);
-        %>
-
-        <h4>Only <%= diff %> shoppings days until Christmas!</h4>
-
-        <br />
-        <br />
-
+        
+        <h5><center><a href="giftAttributes">Gift List</a></center></h5>
+         <br />
+         <br />         
         </div>
 </body>
 </html>

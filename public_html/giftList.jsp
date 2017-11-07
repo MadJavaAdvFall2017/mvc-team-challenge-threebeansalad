@@ -48,8 +48,9 @@
         %>
 
         <h4>Only <%= diff %> shoppings days until Christmas!</h4>
-
-        <br />
+        
+        <h5><center><a href="giftDiamgram">Diagram of our site</a></center></h5>
+        
         <br />
 
         </div>

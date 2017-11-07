@@ -38,6 +38,12 @@
     <servlet-name>myGiftList</servlet-name>
     <jsp-file>/giftList.jsp</jsp-file>
   </servlet>
+  
+  <servlet>
+    <servlet-name>giftDiagram</servlet-name>
+    <jsp-file>/giftDiagram.jsp</jsp-file>
+  </servlet>
+  
 <!-- ********************************************************************* -->
 <!-- Servlet Mappings **************************************************** -->
 <!-- ********************************************************************* -->
@@ -46,6 +52,11 @@
     <servlet-name>myGiftList</servlet-name>
     <url-pattern>/GiftList</url-pattern>
   </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>giftDiagram</servlet-name>
+    <url-pattern>/giftDiamgram</url-pattern>
+  </servlet-mapping>  
 
 <!-- ********************************************************************* -->
 <!-- Home Page *********************************************************** -->
